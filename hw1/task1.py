@@ -9,4 +9,3 @@ def test_func(capsys):
     f()
     var1 = capsys.readouterr()
     assert var1.out == "Hello, World!\n"
-
