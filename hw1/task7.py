@@ -23,6 +23,7 @@ def calc_fin(mat_inv, mat_E):
     mat = np.multiply(mat_D,mat_E)
     return mat
 
+#finishing final matrix format
 with open(file_name, 'r') as file:
     all = file.readlines()
     g = 0
